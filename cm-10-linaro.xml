@@ -18,6 +18,7 @@
     <remove-project name="CyanogenMod/android_external_v8" />
     <remove-project name="CyanogenMod/android_bionic" />
     <remove-project name="CyanogenMod/android_system_core" />
+    <remove-project name="CyanogenMod/android_external_oprofile" />
     
     <project name="AdrianoMartins/android_build" path="build" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_dalvik" path="dalvik" revision="cm-10-linaro"/>
@@ -28,7 +29,7 @@
     <project name="AdrianoMartins/android_external_v8" path="external/v8" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_bionic" path="bionic" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_system_core" path="system/core" revision="cm-10-linaro"/>
-
+    <project name="AdrianoMartins/android_external_oprofile" path="external/oprofile" revision="cm-10-linaro"/>
     
     <!-- Device -->
     <project name="AdrianoMartins/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" revision="cm-10-linaro"/>
