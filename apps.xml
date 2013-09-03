@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!-- Remove -->
+    <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
+    <remove-project name="CyanogenMod/android_packages_apps_Mms" />
+    <remove-project name="CyanogenMod/android_packages_apps_Phone" />
+    
+    <!-- Add -->
+    <project name="AdrianoMartins/android_packages_apps_Phone" path="packages/apps/Phone" revision="cm-10-linaro"/>
+    <project name="AdrianoMartins/android_packages_apps_Mms" path="packages/apps/Mms" revision="cm-10-linaro"/>
+    <project name="AdrianoMartins/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="cm-10-linaro"/>
+
+</manifest>
