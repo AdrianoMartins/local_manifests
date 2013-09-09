@@ -14,6 +14,7 @@
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <remove-project name="CyanogenMod/android_frameworks_base" />
     <remove-project name="CyanogenMod/android_frameworks_native" />
+    <remove-project name="CyanogenMod/android_frameworks_rs" />
     <remove-project name="CyanogenMod/android_hardware_ril" />
     <remove-project name="CyanogenMod/android_external_v8" />
     <remove-project name="CyanogenMod/android_bionic" />
@@ -26,6 +27,7 @@
     <project name="AdrianoMartins/android_frameworks_av" path="frameworks/av" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_frameworks_base" path="frameworks/base" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_frameworks_native" path="frameworks/native" revision="cm-10-linaro"/>
+    <project name="AdrianoMartins/android_frameworks_rs" path="frameworks/rs" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_hardware_ril" path="hardware/ril" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_external_v8" path="external/v8" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_bionic" path="bionic" revision="cm-10-linaro"/>
