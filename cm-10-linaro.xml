@@ -85,15 +85,13 @@
     <project name="AdrianoMartins/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="master"/>
      -->
 
-    <!-- codefireX-Toolchain 
+    <!-- codefireX-Toolchain -->
     <remove-project path="external/aac" name="CyanogenMod/android_external_aac" />
     <project path="external/codefirex/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-exp" revision="jb-devel" />
     <project path="external/codefirex/src/binutils" name="toolchain/binutils" remote="aosp" revision="master" />
     <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
     <project path="external/codefirex/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
     <project path="external/codefirex/src/expat" name="toolchain/expat" remote="aosp" revision="master" />
-    <project path="external/codefirex/src/gcc/gcc-4.8" name="toolchain_gcc-4.8" remote="cfx-exp" revision="jb-devel" />
-    <project path="external/codefirex/src/gcc/gcc-4.9" name="toolchain_gcc-4.9" remote="cfx-exp" revision="jb-devel" />
     <project path="external/codefirex/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
     <project path="external/codefirex/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
     <project path="external/codefirex/src/isl" name="toolchain/isl" remote="aosp" revision="master" />
@@ -102,6 +100,13 @@
     <project path="external/codefirex/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
     <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
     <project path="external/codefirex" name="external_codefirex" remote="cfx-exp" revision="jb-devel-release" />
-    -->
+    <project path="external/codefirex/src/gcc" name="toolchain_gcc" remote="cfx-exp" revision="jb-devel" />
+    <project path="external/codefirex/src/gcc/gcc-4.8.0" name="toolchain_gcc-4.8" remote="cfx-exp" revision="jb-devel" />
     
+    <!--
+
+    <project path="external/codefirex/src/gcc/gcc-4.9" name="toolchain_gcc-4.9" remote="cfx-exp" revision="jb-devel" />
+    -->
+
+
 </manifest>
