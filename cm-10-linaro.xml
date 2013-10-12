@@ -49,9 +49,9 @@
     <project name="AdrianoMartins/android_device_semc_mogami-common" path="device/semc/mogami-common" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_device_semc_anzu" path="device/semc/anzu" revision="cm-10-linaro"/>
     
-    <!-- Kernel
-    <project name="AdrianoMartins/xperia-kernel-msm7x30" path="kernel/semc/msm7x30" revision="cm-10-linaro" />
-    -->
+    <!-- Kernel -->
+    <project name="AdrianoMartins/android_kernel_semc_msm7x30" path="kernel/semc/msm7x30" revision="cm-10-linaro" />
+
     
     <!-- Hardware -->
     <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
