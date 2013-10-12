@@ -21,7 +21,9 @@
     <remove-project name="CyanogenMod/android_system_core" />
     <remove-project name="CyanogenMod/android_external_oprofile" />
     <remove-project name="CyanogenMod/android_external_clang" />
-    
+    <remove-project name="CyanogenMod/android_external_bash" />
+    <remove-project name="CyanogenMod/android_external_chromium" />
+
     <project name="AdrianoMartins/android_build" path="build" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_dalvik" path="dalvik" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_frameworks_av" path="frameworks/av" revision="cm-10-linaro"/>
@@ -34,15 +36,22 @@
     <project name="AdrianoMartins/android_system_core" path="system/core" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_external_oprofile" path="external/oprofile" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_external_clang" path="external/clang" revision="cm-10-linaro"/>
-    
-    
+    <project name="AdrianoMartins/android_external_bash" path="external/bash" revision="cm-10-linaro"/>
+    <project name="AdrianoMartins/android_external_chromium" path="external/chromium" revision="cm-10-linaro"/>
+
+    <!--
+    <remove-project name="CyanogenMod/android_external_aac" />
+    <project name="AdrianoMartins/android_external_aac" path="external/aac" revision="cm-10-linaro"/>
+     -->
+
     <!-- Device -->
     <project name="AdrianoMartins/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_device_semc_mogami-common" path="device/semc/mogami-common" revision="cm-10-linaro"/>
     <project name="AdrianoMartins/android_device_semc_anzu" path="device/semc/anzu" revision="cm-10-linaro"/>
     
-    <!-- Kernel -->
+    <!-- Kernel
     <project name="AdrianoMartins/xperia-kernel-msm7x30" path="kernel/semc/msm7x30" revision="cm-10-linaro" />
+    -->
     
     <!-- Hardware -->
     <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" />
@@ -52,8 +61,7 @@
     <!-- Apps -->
     <project name="CyanogenMod/android_packages_apps_FMRadio" path="packages/apps/FMRadio" />
     
-
-    
+   
     <!-- SaberMod
     
     <remove-project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -72,9 +80,10 @@
     
     -->
 
-    <!-- GCC -->
+    <!-- GCC
     <project name="AdrianoMartins/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master"/>
     <project name="AdrianoMartins/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="master"/>
+     -->
 
     <!-- codefireX-Toolchain 
     <remove-project path="external/aac" name="CyanogenMod/android_external_aac" />
