@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/lge/v500" name="AdrianoMartins/android_kernel_lge_v500" remote="github" revision="android-5.1" />
+  <project path="device/lge/v500" name="AdrianoMartins/device_lge_v500" remote="github" revision="android-5.1" />
+  <project path="vendor/lge" name="AdrianoMartins/proprietary_vendor_lge" remote="github" revision="android-5.1" />
+</manifest>
